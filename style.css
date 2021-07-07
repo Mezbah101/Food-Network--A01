@@ -1,0 +1,65 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+
+    font-family: 'Noto Sans', sans-serif;
+
+
+}
+
+
+
+.half-width{
+
+width: 50%;
+
+
+
+
+}
+.add-padd{
+
+padding: 30px 20px ;
+
+
+}
+.flex-cntrl{
+
+
+
+    display: flex;
+}
+.text-color{
+
+    color: orange;
+}
+h1{
+
+font-size: 35px;
+
+
+}
+.half-width img
+{
+
+    width: 60% ;
+    margin-left: 200px;
+}
+.para-size{
+
+
+font-size: 23px;
+margin-top: 50px;
+
+}
+.top-banner{
+
+    background-image: url(images/shapes/Frame\ 57.jpg);
+    background-position:left;background-position:left;
+}
