@@ -1,7 +1,5 @@
 
 
-
-
 body{
 
     font-family: 'Noto Sans', sans-serif;
@@ -9,7 +7,10 @@ body{
 
 }
 
+body h1{
 
+    font-size: 195%;
+}
 
 .half-width{
 
@@ -17,13 +18,27 @@ width: 50%;
 margin-bottom: 50px;
 
 
+}
+.half-width p{
+
+font-weight: 500;
 
 
+}
+.top-banner h1{
+font-size: 250%;
+    font-weight: 700;
+    color: gray;
 }
 .add-padd{
 
 padding: 30px 20px ;
 
+
+}
+.about-us{
+
+    color: gray;
 
 }
 .flex-cntrl{
@@ -36,12 +51,7 @@ padding: 30px 20px ;
 
     color: orange;
 }
-h1{
 
-font-size: 35px;
-
-
-}
 .first-pic
 {
 
@@ -51,14 +61,17 @@ font-size: 35px;
 .para-size{
 
 
-font-size: 23px;
+font-size: 120%;
+font-weight: 100;
 margin-top: 50px;
+margin-right: 100px;
 
 }
 .top-banner{
 
     background-image: url(images/shapes/Frame\ 57.jpg);
     background-position:left;background-position:left;
+    height: 600px;
 }
 .order-button
 {
@@ -72,19 +85,123 @@ color: white;
 text-decoration: none;
 
 margin: 100px;
+position: relative;
+top: 80px;
+right: 80px;
+position:relative;
+top: 80px;
 }
 .second-pic{
 
 
     margin-top: 50px;
-    margin-left: 100px;
+    
+    margin-right: 50px;
 }
 .second-banner{
-
+height: 600px;
 
     background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
 }
-.half-width a{
 
-    pos
+
+.recipie-headings{
+
+ text-align:center;
+
+
+
+}
+.recipies-item{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    
+}
+
+.list-item{
+    max-width: 450px;
+    border: 1px solid lightgray;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    border-radius: 32px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    height: 700px;
+}
+.list-item img{
+    
+    margin-left: 30px;
+    width: 350px;
+    border-radius: 32px;
+    padding: 20px;
+}
+.list-item h2{
+    margin-left: 30px;
+    font-weight: 550;
+    color: rgb(255, 0, 0);
+    font-size: 150%;
+
+}
+.list-item p{
+    
+    margin-left: 30px;
+    max-width: 313px;
+    margin-bottom: 30px;
+    font-size: 120%;
+}
+.rec-des{
+ text-align: center;
+ display: inline-block;
+ margin-left: 400px;
+ margin-right: 400px;
+font-size: 120%;
+font-weight: 200;
+}
+
+.content1{
+
+    margin-left: 200px;
+   
+}
+.content2{
+
+    margin-left: 200px;
+}
+.content3{
+
+    margin-left: 200px;
+}
+.content-head{
+
+    display: flex;
+    
+  
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.food{
+    color: orange;
+}
+.bottom h1{
+
+    text-align: center;
+}
+.bottom h5{
+
+    text-align: center;
+    color: white;
+}
+.bottom-banner{
+
+    background-image: url(images/shapes/dark.jpg);
+    height: 250px;
+}
+.recipie-headings h1{
+
+    color: gray;
 }
